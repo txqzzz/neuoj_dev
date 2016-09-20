@@ -1,0 +1,65 @@
+body{
+    height:100%;
+    width:100%;
+    background-image: url(starnight.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+}
+#header, #pagefooter, #container{
+    margin: 0 auto;
+    width:85%;
+    text-align: center;
+
+}
+
+#header{
+    height:150px;
+    border-style: dashed;
+}
+
+.rounded{
+    border-style: dashed;
+}
+.avatar{
+
+    border-radius: 50%;
+    height:90px;
+    width:90px;
+}
+
+.avatarwrap{
+    padding-top: 75px;
+    padding-left: 75px;
+}
+
+.avatarwrap2{
+    padding-top: 55px;
+    padding-left: 55px;
+}
+#content{
+    float:right;
+    width:60%;
+}
+
+#side{
+    padding-left: 40px;
+    margin-outside: 60px;
+    float:left;
+    width:30%;
+
+}
+
+#pagefooter{
+    clear:both;
+
+}
+
+.contentavatar img{
+border-radius: 50%;
+    width:75px;
+    height:75px;
+}
