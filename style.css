@@ -7,7 +7,12 @@ body{
     background-attachment: fixed;
     background-size: cover;
     background-color: #464646;
+    font-family: Arial;
+
 }
+
+h1,h2,h3,h4,p,a,ul,dd,dt,span,img,input,label{
+    color: #ffffff;
 }
 #header, #pagefooter, #container{
     margin: 0 auto;
@@ -30,16 +35,56 @@ body{
     height:90px;
     width:90px;
 }
-
 .avatarwrap{
-    padding-top: 75px;
-    padding-left: 75px;
+    margin: 0 auto;
+    width: 100px;
+    padding: 3px;
+
 }
+
 
 .avatarwrap2{
     padding-top: 55px;
     padding-left: 55px;
+    float:left;
 }
+
+.list-profile-item{
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+
+    border: 1px solid #ddd;
+}
+
+
+.post{
+    border-bottom: 1px solid #d2d6de;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+
+}
+
+.post2{
+    border-bottom: 1px solid #d2d6de;
+    height:200px;
+    mragin-bottom:15px;
+    padding-bottom:15px;
+}
+
+.post .userblock{
+    margin-bottom:15px;
+}
+
+.margin-r-5{
+    mrgin-right:5px;
+}
+
+.pull-right{
+    float:right;
+}
+
 #content{
     float:right;
     width:60%;
@@ -51,6 +96,7 @@ body{
     float:left;
     width:30%;
 
+
 }
 
 #pagefooter{
@@ -59,7 +105,19 @@ body{
 }
 
 .contentavatar img{
-border-radius: 50%;
+    border-radius: 50%;
     width:75px;
     height:75px;
+}
+
+.sidebox {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 20px;
+}
+
+.sidebox{
+
 }
