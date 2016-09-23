@@ -121,3 +121,19 @@ h1,h2,h3,h4,p,a,ul,dd,dt,span,img,input,label{
 .sidebox{
 
 }
+
+#pull-right{
+    float:right;
+}
+
+.pic{
+    height: 100px;;
+    width: 100px;
+    margin: 20px;
+    float:left;
+    padding:auto;
+}
+
+.pic img{
+    border:none;
+}
