@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    html{
+    font-size:20px;
+    }
+    ul{
+    list-style-type:none;
+    background-color:#ccc;
+    overflow:hidden;
+    padding:1rem;
+    }
+    ul li{
+    float:left;
+    }
+    .circle{
+    width:2rem;
+    height:2rem;
+    border-radius:2rem;
+    background-color:green;
+    border:0.2rem solid #aaa;
+    }
+    .cur{
+    background-image:radial-gradient(circle,white 0%,white 22%,green 22%,green 100%);
+    }
+    .noFinishLine{
+    background-color:#aaa!important;
+
+    }
+    .noFinishCircle{
+    background-color:#aaa!important;
+    width:2.6rem!important;
+    height:2.6rem!important;
+    border-radius:2.6rem!important;
+    margin-top:-0.3rem;
+    }
+    .line{
+    width:5rem;
+    height:0.2rem;
+    margin-top:1rem;
+    background-color:green;
+    transform:scaleX(1.09);
+    </style>
+</head>
+<body>
+
+<ul>
+    <li class="circle"></li>
+    <li class="line"></li>
+    <li class="circle"></li>
+    <li class="line"></li>
+    <li class="circle cur"></li>
+    <li class="line noFinishLine"></li>
+    <li class="circle noFinishCircle"></li>
+    <li class="line noFinishLine"></li>
+    <li class="circle noFinishCircle"></li>
+</ul>
+
+
+</body>
+</html>
