@@ -11,19 +11,23 @@ body{
 
 }
 
-h1,h2,h3,h4,p,a,ul,dd,dt,span,img,input,label{
+h1,h2,h3,h4,p,ul,dd,dt,span,img,input,label,pre{
     color: #ffffff;
 }
-#header, #pagefooter, #container{
+#header, #pagefooter, #container,#button{
     margin: 0 auto;
     width:85%;
     text-align: center;
-
+}
+a {
+    color:#3c8dbc;
+    text-decoration:none;
+    cursor:e-resize;
 }
 
 #header{
-    height:150px;
-    border-style: dashed;
+    height:180px;
+    /*border-style: dashed;*/
 }
 
 .rounded{
@@ -54,10 +58,8 @@ h1,h2,h3,h4,p,a,ul,dd,dt,span,img,input,label{
     display: block;
     padding: 10px 15px;
     margin-bottom: -1px;
-
     border: 1px solid #ddd;
 }
-
 
 .post{
     border-bottom: 1px solid #d2d6de;
@@ -69,7 +71,10 @@ h1,h2,h3,h4,p,a,ul,dd,dt,span,img,input,label{
 .post2{
     border-bottom: 1px solid #d2d6de;
     height:200px;
-    mragin-bottom:15px;
+    padding-bottom:15px;
+}
+
+.post3 {
     padding-bottom:15px;
 }
 
@@ -85,14 +90,18 @@ h1,h2,h3,h4,p,a,ul,dd,dt,span,img,input,label{
     float:right;
 }
 
+.pull-left a{
+    margin-left:2px;
+}
+
 #content{
     float:right;
     width:60%;
+    padding-right: 40px;
 }
 
 #side{
     padding-left: 40px;
-    margin-outside: 60px;
     float:left;
     width:30%;
 
@@ -118,22 +127,67 @@ h1,h2,h3,h4,p,a,ul,dd,dt,span,img,input,label{
     padding: 20px;
 }
 
-.sidebox{
-
-}
-
 #pull-right{
     float:right;
 }
 
-.pic{
-    height: 100px;;
-    width: 100px;
-    margin: 20px;
-    float:left;
-    padding:auto;
+.pic img {
+    height: 150px;
+    /*width: 150px;*/
+    margin-left: 10px;
+    padding:15px;
+    float: left;
+    border: none;
 }
 
-.pic img{
-    border:none;
+#header p{
+    letter-spacing: -2px;
+    font-family: Arial,Helvetica, Sans-Serif;
+    font-size:80px;
+    line-height:30px;
+
 }
+.postbox {
+    margin-left:160px;
+    margin-top: 30px;
+    margin-bottom:30px;
+    /*border-bottom-right-radius: 5px;*/
+    height:350px;
+    padding: 20px;
+}
+
+.button {
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+    border:none;
+    font-size:14px;
+    color: #000000;
+    height:27px;
+    width:134px;
+    font-variant:small-caps;
+}
+
+.button:hover {
+    padding:0;
+    margin:0;
+    border:none;
+    font-size:14px;
+    color: #FF0000;
+    height:27px;
+    width:134px;
+    text-decoration:none;
+    font-variant:small-caps;
+}
+
+.button_active {
+    padding:0;
+    margin:0;
+    border:none;
+    font-size:14px;
+    color: #FF0000;
+    height:27px;
+    width:134px;
+    font-variant:small-caps;
+}
+
