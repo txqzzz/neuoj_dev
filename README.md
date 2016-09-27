@@ -17,14 +17,14 @@ tips: Given a new shot as follows for a better start. Original files are removed
  * [ ] Main content
    * [x]  Activity
      * [x] Pictures and documents layout 
-     * [ ] Comment function.
+      * [ ] Comment function.
    * [ ] Timeline
    * [ ] Setting
  * [ ] Control pannel  
  * [ ] Footpage
    * [ ] Friends' links and more infomation cast.
-   * [ ] Analytics.
-   * [ ] Disqus.
+    * [ ] Analytics.
+     * [ ] Disqus.
  
  From 2016-09-21 Basically finished on 2016-09-24
  
