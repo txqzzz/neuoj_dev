@@ -1,4 +1,4 @@
-#neuoj_development_list
+#neuoj_front_end_study_tasks
 ---
 ## neu_profile
 * The first try for imitating [AdminLTE Profile] (https://www.almsaeedstudio.com/themes/AdminLTE/pages/examples/profile.html) 
