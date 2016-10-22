@@ -280,7 +280,7 @@ function boardView(){
         }
 
     $('.grid-cell-number').css('line-height',cellSideLength+'px');
-    $('.grid-cell-number').css('font-size',0.6*cellSideLength+'px');
+    //$('.grid-cell-number').css('font-size',0.6*cellSideLength+'px');
 }
 
 function generateNumber(){
@@ -341,7 +341,7 @@ function generateNumber(){
 }
 
 $(document).keydown( function( event ){
-    //event.preventDefault();
+
     /*
     38: 0, // Up
     39: 1, // Right
@@ -358,25 +358,29 @@ $(document).keydown( function( event ){
     */
     switch( event.keyCode ){
 
-        case 37: //left
+        case 37:
+            event.preventDefault();//left
             if( moveLeft() ){
                 setTimeout("generateNumber()",210);
                 setTimeout("isOver()",300);
             }
             break;
-        case 38: //up
+        case 38:
+            event.preventDefault();//up
             if( moveUp() ){
                 setTimeout("generateNumber()",210);
                 setTimeout("isOver()",300);
             }
             break;
-        case 39: //right
+        case 39:
+            event.preventDefault();//right
             if( moveRight() ){
                 setTimeout("generateNumber()",210);
                 setTimeout("isOver()",300);
             }
             break;
-        case 40: //down
+        case 40:
+            event.preventDefault();//down
             if( moveDown() ){
                 setTimeout("generateNumber()",210);
                 setTimeout("isOver()",300);
